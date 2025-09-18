@@ -1,0 +1,98 @@
+nav{
+background-color: #1F2937;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+body{
+    background-color: #F4F4F9;
+}
+.navbar-nav{
+    list-style: none;
+}
+.navbar .nav-link{
+    color:white !important;
+    list-style: none;
+}
+
+.navbar .nav-link:hover{
+    color:#3B82F6 !important;
+}
+.navbar-toggler{
+    border-color: white;
+}
+.navbar-toggler-icon{
+    filter: invert(1);
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    border-color: #3B82F6;
+}
+h2,h1{
+    color:#3B82F6;
+    text-align: center;
+}
+main{
+    flex:1;
+}
+.portfolio-description{
+    display: flex;
+    gap: 2rem;
+    position: relative;
+}
+.portfolio-description p{
+    flex:2;
+    margin: 0;
+}
+.portfolio-link{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+Esto esta bien 
+*/
+footer{
+    background-color: #1F2937;
+    color: #3B82F6;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer-icons{
+    list-style: none;
+}
+.footer-icons li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-icons li a img{
+    max-width: 30px;
+    color:#3B82F6;
+    transition: filter 0.3s;
+    filter: brightness(0) invert(1);
+}
+
+.footer-links{
+    list-style: none;
+}
+
+.footer-links li{
+    display:inline;
+    margin-right: 20px;
+    color: white;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+

@@ -1,0 +1,105 @@
+/*
+Header
+*/
+
+nav{
+background-color: #1F2937;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+body{
+    background-color: #F4F4F9;
+}
+.navbar-nav{
+    list-style: none;
+}
+.navbar .nav-link{
+    color:white !important;
+    list-style: none;
+}
+
+.navbar .nav-link:hover{
+    color:#3B82F6 !important;
+}
+.navbar-toggler{
+    border-color: white;
+}
+.navbar-toggler-icon{
+    filter: invert(1);
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    border-color: #3B82F6;
+}
+.term-list{
+    list-style: none;
+}
+/*
+Main de Portfolio
+*/
+main{
+    flex: 1;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 150px;         /* Ajusta según lo pequeño que lo quieras */
+    object-fit: cover;     /* Recorta sin deformar */
+    border-radius: 8px;    /* Opcional: bordes redondeados */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.port-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #1F2937;
+}
+
+/*
+Footer
+*/
+
+footer{
+    background-color: #1F2937;
+    color: #3B82F6;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer-links{
+    list-style: none;
+}
+
+.footer-links li{
+    display:inline;
+    margin-right: 20px;
+    color: white;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-icons{
+    list-style: none;
+}
+.footer-icons li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-icons li a img{
+    max-width: 30px;
+    color:#3B82F6;
+    transition: filter 0.3s;
+    filter: brightness(0) invert(1);
+}

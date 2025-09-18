@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño y desarrollo de páginas web profesionales | DMS - Desarrollador web freelance</title>
+    <meta name="description" content="Desarrollador web freelance especializado en la creación de páginas web profesionales, personalizadas y optimizadas para buscadores. Contacta conmigo para llevar tu negocio al siguiente nivel.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Diego Mora">
+    <meta name="keywords" content="desarrollador web, páginas web, diseño web, desarrollo web, freelance, SEO, creación de webs">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <meta property="og:title" content="Desarrollador web freelance - DMS">
+    <meta property="og:description" content="Diseño y desarrollo de páginas web profesionales y optimizadas. Contacta para un sitio web a medida.">
+    <meta property="og:image" content="https://portfolio.com/img/logo.png">
+    <meta property="og:url" content="https://portfolio.com">
+    <meta name="twitter:card" content="summary_large_image">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <a class="navbar-brand text-light" href="#">
+                    <img src="img/logo.png" alt="Logo del portfolio web de Desarrollador profesional">
+                </a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/sobre-mi.html" >Sobre mi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-4">
+        <h1 class="text ms-4">Desarrollador web freelance especializado en creación de páginas web</h1>
+            <p class="text ms-3">Contar con una página web profesional permite a cualquier persona o negocio tener presencia constante en internet, accesible las 24 horas del día desde cualquier parte del mundo. Esto no solo mejora la visibilidad, sino que también transmite confianza y profesionalismo ante clientes potenciales. Una web actúa como carta de presentación digital, donde puedes mostrar quién eres, qué ofreces y por qué alguien debería confiar en ti o en tu marca.</p>
+            <p class="text ms-3">Además, una página web te da control total sobre tu contenido y cómo lo comunicas. Puedes incluir un portafolio actualizado, testimonios de clientes, formularios de contacto e incluso integrar herramientas de marketing y análisis para entender mejor a tu audiencia. A diferencia de depender solo de redes sociales, tener tu propio sitio te posiciona mejor en buscadores como Google y te da independencia para crecer a tu ritmo.</p>
+        <section class="cta-banner text-center py-5 bg-dark text-white">
+        <h2>¿Quieres saber cuánto costaría tu página web?</h2>
+            <p>Calcula tu presupuesto en menos de 1 minuto.</p>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPresupuesto">Pedir presupuesto</button>
+        </section>
+
+        
+        <div class="portfolio">
+            <h2 class="text ms-4">Soluciones a tu medida</h2>
+            <div class="portfolio-description">
+                <p class="text ms-3">Como desarrollador web, ofrezco servicios enfocados en la creación y manipulación de bases de datos, lo que permite gestionar eficientemente la información de tu negocio, desde registros de clientes hasta inventarios. Además, diseño y desarrollo portales web personalizados que se adaptan a tus necesidades, ya sea para mostrar tus productos, facilitar reservas, administrar contenido o mejorar la comunicación con tus clientes. Mi objetivo es ayudarte a digitalizar y optimizar tu negocio con soluciones funcionales, seguras y fáciles de usar.</p>
+                <div class="portfolio-link">
+                    <a class="btn btn-primary" href="/portfolio.html">Ver ejemplos de páginas web que he desarrollado</a>
+                </div>
+            </div>     
+        </div>
+
+        <div class="container mt-5">
+            <h2 class="text-center mt-4">Contacteme</h2>
+            <form id="formulario-contacto" action="/php/contacto.php" method="post">
+                <div class="mt-3">
+                    <label for="asunto" class="form-label">Expliquenos su proyecto:</label>
+                    <input type="text"class="form-control" id="asunto" placeholder="Asunto" name="mensaje" required>
+                </div>
+                <div class="mt-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="remitente" placeholder="Nombre completo" name="nombre" required>
+                </div>
+                <div class="mt-3">
+                    <label for="email" class="form-label">Correo electronico</label>
+                    <input type="text" class="form-control" id="email" placeholder="Email" name="email" required>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3" id="btn-enviar-contacto">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <ul class="footer-links">
+                <li><a href="/Terminos.html">Terminos y condiciones</a></li>
+        </ul>
+
+        <ul class="footer-icons">
+            <li><a href="#"><img src="/img/instagram.svg" alt="Instagram"></a></li>
+
+            <li><a href="#"><img src="/img/linkedIN.svg" alt="LinkedIn"></a></li>
+        </ul>
+    </footer>
+
+    <!-- Modal de confirmación -->
+<div class="modal fade" id="modalGracias" tabindex="-1" aria-labelledby="modalGraciasLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalGraciasLabel">¡Muchas gracias!</h5>
+      </div>
+      <div class="modal-body">
+        Nos pondremos en contacto contigo pronto.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalPresupuesto" tabindex="-1" aria-labelledby="modalPresupuestoLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <form id="formPresupuesto">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalPresupuestoLabel">Calcula tu presupuesto</h5>
+        </div>
+        <div class="modal-body">
+          <!-- Campos ejemplo -->
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="tipoWeb">¿Qué tipo de página necesitas?</label>
+            <select name="tipoWeb" class="form-select">
+              <option value="basica">Web básica (1 página)</option>
+              <option value="multipagina">Web multipágina</option>
+              <option value="ecommerce">Tienda online</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="paginasExtra">¿Cuántas páginas extra necesitas?</label>
+            <input type="number" name="paginasExtra" class="form-control" min="0" value="0">
+          </div>
+          <!-- Puedes seguir con otras opciones: mantenimiento, SEO, blog, etc. -->
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-success">Calcular presupuesto</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalConfirmacion" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content text-center">
+      <div class="modal-body">
+        <p id="resultadoPresupuesto" class="fs-4 mb-4"></p>
+        <button class="btn btn-success" id="btnAceptar">Aceptar</button>
+        <button class="btn btn-secondary" id="btnCancelar">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('mensaje') === 'enviado') {
+    const modalGracias = new bootstrap.Modal(document.getElementById('modalGracias'));
+    modalGracias.show();
+
+    // Eliminar el parámetro de la URL después de mostrar el modal
+    history.replaceState(null, '', window.location.pathname);
+  }
+</script>
+
+<script src="/js/scripts.js"></script>
+</body>
+</html>
